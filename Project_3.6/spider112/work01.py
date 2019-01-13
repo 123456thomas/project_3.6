@@ -36,7 +36,7 @@ def Web_get(urls):
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"}
     response = requests.get(urls, headers=headers)
     html = response.text
-    print(html)
+    # print(html)
     return html
 
 def Spider_data(html):
@@ -47,15 +47,22 @@ def Spider_data(html):
     """
 
 def main():
-    baseurl = "http://sports.163.com/zc/"
+    baseurl = "http://sports.163.com/special/00051C89/zc"
     # 翻页
     begins = int(input("起始页:"))
     ends = int(input("终止页页:"))
     nums = 0
-    # 获取页面
+    # 获取页面 special/00051C89/zc.html  zc_03.html
+    # http: // sports
+    # .163.com / special / 00051
+    # C89 / zc_02.html
     for i in range(begins, ends + 1):
-        newurl = baseurl + str(i)
-        html = Web_get(baseurl)
+        if i != 1:
+            newurl = baseurl + "_%s.html"%(str(i).zfill(2))
+        else:
+            newurl = baseurl + ".html"
+        print(newurl)
+        html = Web_get(newurl)
 
 
 
