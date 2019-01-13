@@ -1,0 +1,110 @@
+Traceback (most recent call last):
+  File "D:/Project_3.6/pachong108/models/spider02.py", line 148, in main
+    Spider_cont(html)
+  File "D:/Project_3.6/pachong108/models/spider02.py", line 126, in Spider_cont
+    rgif = requests.get(gifs[s])
+IndexError: list index out of range
+Report_time:2019-01-09 20:38:42
+
+Traceback (most recent call last):
+  File "D:/Project_3.6/pachong108/models/spider02.py", line 147, in main
+    Spider_cont(html)
+  File "D:/Project_3.6/pachong108/models/spider02.py", line 106, in Spider_cont
+    filname = "qiushi/text/" + str(t_num) + "%s.txt"%s
+UnboundLocalError: local variable 's' referenced before assignment
+Report_time:2019-01-09 20:40:28
+
+Traceback (most recent call last):
+  File "D:/Project_3.6/pachong108/models/spider02.py", line 147, in main
+    Spider_cont(html)
+  File "D:/Project_3.6/pachong108/models/spider02.py", line 109, in Spider_cont
+    f_c.write(content)
+TypeError: write() argument must be str, not list
+Report_time:2019-01-09 20:41:14
+
+Traceback (most recent call last):
+  File "D:/Project_3.6/pachong108/models/spider02.py", line 148, in main
+    Spider_cont(html)
+  File "D:/Project_3.6/pachong108/models/spider02.py", line 126, in Spider_cont
+    rgif = requests.get(gifs[s])
+IndexError: list index out of range
+Report_time:2019-01-09 20:43:06
+
+Traceback (most recent call last):
+  File "D:/Project_3.6/pachong108/models/spider02.py", line 149, in main
+    Spider_cont(html)
+  File "D:/Project_3.6/pachong108/models/spider02.py", line 127, in Spider_cont
+    rgif = requests.get(gifs[s])
+IndexError: list index out of range
+Report_time:2019-01-09 20:45:21
+
+Traceback (most recent call last):
+  File "D:/Project_3.6/pachong108/models/spider02.py", line 149, in main
+    Spider_cont(html)
+  File "D:/Project_3.6/pachong108/models/spider02.py", line 128, in Spider_cont
+    with requests.get(sour, stream=True) as f_v:
+  File "D:\Project_spider\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Project_spider\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Project_spider\lib\site-packages\requests\sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "D:\Project_spider\lib\site-packages\requests\sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "D:\Project_spider\lib\site-packages\requests\models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "D:\Project_spider\lib\site-packages\requests\models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '<Response [200]>': No schema supplied. Perhaps you meant http://<Response [200]>?
+Report_time:2019-01-09 20:48:20
+
+Traceback (most recent call last):
+  File "D:/Project_3.6/pachong108/models/spider02.py", line 148, in main
+    Spider_cont(html)
+  File "D:/Project_3.6/pachong108/models/spider02.py", line 114, in Spider_cont
+    rimg = requests.get(imgs[s])
+  File "D:\Project_spider\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Project_spider\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Project_spider\lib\site-packages\requests\sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "D:\Project_spider\lib\site-packages\requests\sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "D:\Project_spider\lib\site-packages\requests\models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "D:\Project_spider\lib\site-packages\requests\models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '//qiubai-video-web.qiushibaike.com/article/gif/4NGTVRP2HJJBD8PF': No schema supplied. Perhaps you meant http:////qiubai-video-web.qiushibaike.com/article/gif/4NGTVRP2HJJBD8PF?
+Report_time:2019-01-09 20:51:29
+
+Traceback (most recent call last):
+  File "D:/Project_3.6/pachong108/models/spider02.py", line 148, in main
+    Spider_cont(html)
+  File "D:/Project_3.6/pachong108/models/spider02.py", line 114, in Spider_cont
+    rimg = requests.get(imgs[s])
+  File "D:\Project_spider\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Project_spider\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Project_spider\lib\site-packages\requests\sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "D:\Project_spider\lib\site-packages\requests\sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "D:\Project_spider\lib\site-packages\requests\models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "D:\Project_spider\lib\site-packages\requests\models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL '//qiubai-video-web.qiushibaike.com/article/gif/4NGTVRP2HJJBD8PF': No schema supplied. Perhaps you meant http:////qiubai-video-web.qiushibaike.com/article/gif/4NGTVRP2HJJBD8PF?
+Report_time:2019-01-09 20:55:03
+
+Traceback (most recent call last):
+  File "D:/Project_3.6/pachong108/models/spider02.py", line 151, in main
+    Spider_cont(html)
+  File "D:/Project_3.6/pachong108/models/spider02.py", line 97, in Spider_cont
+    Htmls = etree.HTML(newhtml)
+  File "src\lxml\etree.pyx", line 3159, in lxml.etree.HTML
+  File "src\lxml\parser.pxi", line 1876, in lxml.etree._parseMemoryDocument
+ValueError: can only parse strings
+Report_time:2019-01-09 20:56:59
+
