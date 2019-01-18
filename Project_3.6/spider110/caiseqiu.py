@@ -45,7 +45,6 @@ def mysql_inset(name, ends, *datalist):
                           port=3306)
     # 2.创建游标
     cur = con.cursor()
-
     # 3.开始交互,构建插入语句
     # 3.1创建表
     try:

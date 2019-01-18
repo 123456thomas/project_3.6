@@ -21,7 +21,7 @@ __mtime__ = '2018/9/25'
 from urllib import request,parse
 import zlib
 from lxml import etree
-import pymysql ,os ,chardet, requests
+import pymysql, os, chardet, requests
 from bs4 import BeautifulSoup
 
 # 1.网页抓取
