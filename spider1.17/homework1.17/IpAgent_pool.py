@@ -1,0 +1,202 @@
+"""
+__title__ = ''
+__author__ = 'Thompson'
+__mtime__ = '2018/9/25'
+# code is far away from bugs with the god animal protecting
+    I love animals. They taste delicious.
+              ┏┓      ┏┓
+            ┏┛┻━━━┛┻┓
+            ┃      ☃      ┃
+            ┃  ┳┛  ┗┳  ┃
+            ┃      ┻      ┃
+            ┗━┓      ┏━┛
+                ┃      ┗━━━┓
+                ┃  神兽保佑    ┣┓
+                ┃　永无BUG！   ┏┛
+                ┗┓┓┏━┳┓┏┛
+                  ┃┫┫  ┃┫┫
+                  ┗┻┛  ┗┻┛
+"""
+
+# 导入所需模块
+from selenium import webdriver
+from bs4 import BeautifulSoup
+import time
+import requests
+import hashlib
+import pymysql
+import threading
+import random
+# 模块UserAgent，可以从中导入UA
+from fake_useragent import UserAgent
+
+
+# 创建代理IP池类
+class ProxyIpPool:
+    def __init__(self):
+        # self.ua = UserAgent()
+        host = 'localhost'
+        port = 3306
+        dbname = 'ip_pool'
+        user = 'root'
+        pwd = '361365'
+        self.driver = None
+        try:
+            self.conn = pymysql.connect(host=host, port=port, user=user, password=pwd, db=dbname, charset='utf8')
+            self.cur = self.conn.cursor()
+            self.id_list = []
+            # self.get_from_db()
+        except Exception as e:
+            print('init:', e)
+            # self.close()
+        # 使用谷歌浏览器
+        self.driver = webdriver.PhantomJS()
+
+    def get_from_db(self):
+        '''
+        从数据库中读取已有的代理ip，并检验其有效性
+        :return:
+        '''
+        strsql = "select * from proxyippool"
+        self.cur.execute(strsql)
+        results = self.cur.fetchall()
+        for item in results:
+            id = item[1]
+            ip = item[2]
+            port = item[3]
+            proxy = ip + ":" + port
+            if self.check_ip(proxy):
+                self.id_list.append(id)
+            else:
+                self.delRecord(id)
+            time.sleep(2)
+            print(len(self.id_list))
+
+    def down_ips(self, url):
+        '''
+        下载代理IP
+        :param url:
+        :return:
+        '''
+        # 访问地址
+        self.driver.get(url)
+        # 得到html文件
+        html = self.driver.page_source
+        # print(html)
+        # 建立bs对象
+        bs = BeautifulSoup(html, 'lxml')
+        ls = bs.select('#ip_list > tbody > tr')
+        print(len(ls))
+        ls.pop(0)
+
+        for item in ls:
+            ip = item.select('td')[1].get_text()
+            port = item.select('td')[2].get_text()
+            proxy = ip + ":" + port
+            print(proxy)
+            if self.check_ip(proxy):
+                print('valid ip.')
+                self.save(ip, port)
+            time.sleep(2)
+
+    def check_ip(self, ip):
+        '''
+        检验ip是否有效
+        :param ip:
+        :return:
+        '''
+        # headers = {'User-Agent': self.ua.random}  # 定制请求头
+        headers = {'User-Agent': 'Mozilla/5.0 (compatible; WOW64; MSIE 10.0; Windows NT 6.2)'}
+        proxies = {"http": "http://" + ip, "https": "http://" + ip}  # 代理ip
+        try:
+            print('check:', ip)
+            # url = "http://ip.27399.com/"
+            url = "http://www.ip138.com/"
+            code = requests.get(url=url, proxies=proxies, headers=headers, timeout=5).status_code
+            if code == 200:
+                return True
+            else:
+                return False
+        except:
+            return False
+
+    def save(self, ip, port):
+        '''
+        代理ip存储到数据库
+        :param ip:
+        :param port:
+        :return:
+        '''
+        print('begin save...')
+        proxy = ip + ":" + port
+        h = hashlib.md5()
+        h.update(proxy.encode())
+        id = h.hexdigest()
+        if id not in self.id_list:
+            try:
+                strsql = 'insert into proxyippool VALUES(0,%s,%s,%s)'
+                params = (id, ip, port)
+                result = self.cur.execute(strsql, params)
+                self.conn.commit()
+                self.id_list.append(id)
+                print('save:', proxy)
+            except Exception as e:
+                print('save:', e)
+                self.close()
+
+    def delRecord(self, id):
+        '''
+        删除指定的记录
+        :param self:
+        :param id:
+        :return:
+        '''
+        strsql = 'delete from proxyippool where fingerprint="' + id + '"'
+        self.cur.execute(strsql)
+        self.conn.commit()
+        print('del proxy:', id)
+
+    def close(self):
+        try:
+            if self.driver:
+                self.driver.close()
+            self.cur.close()
+            self.conn.close()
+        except Exception as e:
+            print(e)
+
+Ends_ = False
+def spider_ip(num_page):
+    global Ends_
+    pool = ProxyIpPool()
+    url1 = "http://www.xicidaili.com/nn/" + str(num_page)
+    pool.down_ips(url1)
+    pool.close()
+    print("采集数量：", len(pool.id_list))
+    if len(pool.id_list) > 20000:
+        Ends_ = True
+
+
+def main():
+    num_page = 1
+
+    while True:
+
+        if Ends_ == False:
+            ts = threading.Thread(target=spider_ip, args=((num_page,)))
+            ts.start()
+            # 控制线程数,最多为20
+            while len(threading.enumerate()) > 20:
+                time.sleep(1)
+            print("现有线程数：", len(threading.enumerate()))
+            num_page += 1
+        else:
+            print("采集完毕2")
+            ts.join()
+            print("采集完毕")
+            break
+
+
+
+if __name__ == '__main__':
+    main()

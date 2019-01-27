@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "D:/Project_3.6/spider1.17/homework1.17/baike.py", line 124, in main
+    if threading.enumerate() <6:
+TypeError: '<' not supported between instances of 'list' and 'int'
+Report_time:2019-01-18 22:19:56
+
+Traceback (most recent call last):
+  File "D:/Project_3.6/spider1.17/homework1.17/baike.py", line 124, in main
+    if threading.enumerate() <6:
+TypeError: '<' not supported between instances of 'list' and 'int'
+Report_time:2019-01-18 22:23:18
+
