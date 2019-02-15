@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hans</title>
+	{% load static %}
+	<link rel="stylesheet" type="text/css" href="{% static 'Bocke/css/Hans.css' %}">
+</head>
+<body>
+	<div id="a">
+		<div id="a1">
+		<h1>万万没想到</h1>
+		<h2>注册</h2>
+		<form action="{% url 'Bocke:success' %}" method="post">
+			{% csrf_token %}
+			用户名：<input type="text" class="s1" placeholder="4-8个字符" required autofocus name="username" autocomplete="off"  value="">
+			<br>
+			&nbsp;&nbsp;密&nbsp;码&nbsp;：<input type="password" class="s1" placeholder="8-16个数字、字母或下划线" required name="pwd" value="">
+			<br>
+			&nbsp;&nbsp;年&nbsp;龄&nbsp;：<input type="number" class="s1" placeholder="8-120" autocomplete="off" name="age" value="">
+			<br>
+			<div id="aa1">
+				<input type="submit" value="注册">
+			&nbsp;&nbsp;&nbsp;<input type="reset" value="重置">
+			<br>
+			<h5 color="red">{{msg}}</h5>
+			</div>
+		</form>
+	</div>
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+{% block head %}
+<head>
+    <meta charset="UTF-8">
+    <title>Hans</title>
+	{% load static %}
+	<link rel="stylesheet" type="text/css" href="{% static 'Bocke/css/Hans.css' %}">
+	<style type="text/css">
+
+		#a{position:absolute;
+			background:none;
+		}
+		#ww1{
+			display:none
+		}
+		.s1{
+			position:absolute;
+			left: 10px;
+			top:60px;
+		}
+		.ss1{
+			position:absolute;
+			right: 10px;
+			top:60px;
+		}
+		.sss1{
+			margin: 5px auto;
+		}
+		.i1{
+			text-overflow:ellipsis;
+			display:none;
+			overflow:hidden;
+			width:20px;
+			margin:0px;
+			border:0px;
+		}
+		.i2{
+			position:relitive;
+			width:80px;
+			overflow:hidden;
+		}
+		.ii1{
+			position:relative;
+			float:left
+		}
+
+	</style>
+</head>
+{% endblock %}
+<body>
+
+	<div id="a">
+		{% block con_head %}
+		<h3>{{user.username}}的空间</h3>
+		{% endblock %}
+			<div id="a1">
+				{% block table %}
+				<h4>文章列表:</h4>
+				<table  class="sss1" border="2" cellspacing="1" cellpadding="1">
+					<tr><th width=80 >title</th><th width=180>创建时间</th><th width=80 >查看</th></tr>
+					{% for i in arts %}
+					<tr >
+						<td>{{i.artname}}</td><td >{{i.ctime}}</td>
+						<td class="i2" width=80 height=50 >
+						<form width=80  action="{% url 'Bocke:read' %}" method="post">
+							{% csrf_token %}
+							<input class="i1"  type="text" name="con" value={{i.arttext}}>
+							<input class="i1"  type="text" name="atitle" value={{i.artname}}>
+							<input class="i1"  type="text" name="ct" value={{i.ctime}}>
+							<input class="i1"  type="text" name="author" value={{user.username}}>
+							<input class="ii1" type="submit" value="查看">
+						</form>
+					</td></tr>
+					{% empty %}
+					没文章。。。。好尴尬
+					{% endfor %}
+				</table>
+				<h4>文章总数{{sum}}</h4>
+				<a href="{% url 'Bocke:writer' %}"><h3>写文章</h3></a>
+
+				<form action="{% url 'Bocke:Hans1' %}" method="post">
+					{% csrf_token %}
+					<input type="number" hidden name="auth" value="{{user.id}}">
+					标题:<input type="text"  placeholder="标题不超过12个字符" required maxlength="12" name="title" value="">
+					<br><br>
+					<textarea name="con" placeholder="内容超过255个字符" maxlength="180" cols="30" rows="10"></textarea>
+					<input id="su1" type="submit" value="提交">
+				</form>
+				{% endblock %}
+
+			</div>
+		<img class="s1" src="{% static 'Bocke/imgs/run.gif' %}" alt="">
+		<img class="ss1" src="{% static 'Bocke/imgs/run.gif' %}" alt="">
+
+
+	</div>
+</body>
+</html>

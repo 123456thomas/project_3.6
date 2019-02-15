@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>依兰斯诺</title>
+	{% load static %}
+	<link rel="stylesheet" type="text/css" href="{% static 'Bocke/css/Hans.css' %}">
+	<style type="text/css">
+		#a{
+			background-image: url("../static/imgsd/im001.jpg");
+		}
+	</style>
+</head>
+<body>
+{%load static%}
+<div id="a">
+	<div id="a1">
+		<h1>万万没想到</h1>
+			<ul>
+				<li><a href="{% url 'Bocke:login' %}">登录</a></li>
+				<li><a href="{% url 'Bocke:register' %}">注册</a></li>
+			</ul>
+	</div>
+	<img src="{% static 'imgsd/run.gif' %}" alt="">
+</div>
+
+
+</body>
+</html>

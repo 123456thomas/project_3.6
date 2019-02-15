@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>汉兰</title>
+	<style type="text/css">
+		div:{
+			width: 100px;
+			line-height: 40px;
+			margin: 20 auto;
+			background-color: gray;
+		}
+		ul:{
+			width: 800px;
+			margin: 10px auto;
+			list-style-type: none;
+		}
+		a:{text-align: center;
+			margin: 0 auto;
+			color: beige;
+		}
+		h1:{
+			margin: 0 auto;
+			color: blue;
+		}
+		
+	</style>
+</head>
+<body>
+    <!-- <h1>{{msg}}</h1> -->
+	
+	<div>
+		<h1>万万没想到</h1>
+		<ul>
+			<li><a href="login.html">登录</a></li>
+			<li><a href="register.html">注册</a></li>
+		</ul>
+		{% load static %}
+		<img src="{% static 'Bocke/imgs/im001.jpg' %}" alt="">
+	</div>
+	<img src="{% static 'imgsd/im002.jpg' %}" alt="">
+</body>
+</html>
