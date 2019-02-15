@@ -1,0 +1,130 @@
+{
+  'id': '9_1549869035.746',
+  'type': 'feed',
+  'offset': 9,
+  'verb': 'TOPIC_ACKNOWLEDGED_ARTICLE',
+  'created_time': 1549869035,
+  'updated_time': 1549869035,
+  'target': {
+    'id': 56186468,
+    'type': 'article',
+    'url': 'https://api.zhihu.com/articles/56186468',
+    'author': {
+      'id': 'a79799355c0842663f2074daf8f5a1fb',
+      'type': 'people',
+      'url': 'https://api.zhihu.com/people/a79799355c0842663f2074daf8f5a1fb',
+      'user_type': 'organization',
+      'url_token': 'you-yan-she-47',
+      'name': '游研社',
+      'headline': '看懂游戏，研究快乐。',
+      'avatar_url': 'https://pic1.zhimg.com/50/v2-2a9c6ed72cf475d25431350bbaf2283a_m.jpg',
+      'is_org': True,
+      'gender': 0,
+      'badge': [
+        {
+          'type': 'identity',
+          'description': '已认证的官方帐号'
+        },
+        {
+          'type': 'best_answerer',
+          'description': '优秀回答者',
+          'topics': [],
+          'topic_names': [
+            '游戏'
+          ]
+        }
+      ],
+      'followers_count': 176806,
+      'is_following': False,
+      'is_followed': False
+    },
+    'title': '正经的，比基尼铠甲这主意是哪个鬼才想出来的',
+    'excerpt_title': '',
+    'image_url': 'https://pic4.zhimg.com/50/v2-6e626e2a3daf7b2a79bbfd4372fd77bb_hd.jpg',
+    'comment_permission': 'all',
+    'created': 1549093241,
+    'updated': 1549093241,
+    'voteup_count': 8565,
+    'voting': 0,
+    'upvoted_followees': [],
+    'comment_count': 433,
+    'linkbox': {
+      'pic': '',
+      'title': '',
+      'url': '',
+      'category': ''
+    },
+    'excerpt': '比基尼铠甲是一个神奇的设计，大家都知道它不合理，但又无法拒绝它那份独特的魅力。如果问这个东西为什么在今天大行其道，很多人想当然地认为这不过用一句简单的“吸引眼球”就能一言蔽之。但实际上，比基尼铠甲发展到如今这样让大家习以为常的地步，可是走了一段很长的进化之路，这段路程足足有一个世纪之久。甚至比比基尼本身的历史还要早。 文 / @雨上 百花齐放 比基尼铠甲美观、轻便，材质看起来坚固可靠，甚至有的还隐藏着额外…',
+    'excerpt_new': '比基尼铠甲是一个神奇的设计，大家都知道它不合理，但又无法拒绝它那份独特的魅力。如果问这个东西为什么在今天大行其道，很多人想当然地认为这不过用一句简单的“吸引眼球”就能一言蔽之。但实际上，比基尼铠甲发展到如今这样让大家习以为常的地步，可是走了一…',
+    'preview_type': 'default',
+    'preview_text': '',
+    'column': {
+      'id': 'yysaag',
+      'type': 'column',
+      'url': 'https://api.zhihu.com/columns/yysaag',
+      'author': {
+        'id': '0',
+        'type': 'people',
+        'url': '',
+        'user_type': 'people',
+        'url_token': '',
+        'name': '匿名用户',
+        'headline': '',
+        'avatar_url': 'https://pic4.zhimg.com/aadd7b895_m.jpg'
+      },
+      'title': '游研社',
+      'image_url': 'https://pic2.zhimg.com/v2-065723da56e629ebaeed710819644e34_b.jpg',
+      'comment_permission': 'private',
+      'intro': '每天发一些有意思的内容，基本都是游戏相关',
+      'updated': 1524191846,
+      'is_following': False
+    },
+    'content': '<blockquote><b>比基尼铠甲是一个神奇的设计，大家都知道它不合理，但又无法拒绝它那份独特的魅力。如果问这个东西为什么在今天大行其道，很多人想当然地认为这不过用一句简单的“吸引眼球”就能一言蔽之。但实际上，比基尼铠甲发展到如今这样让大家习以为常的地步，可是走了一段很长的进化之路，这段路程足足有一个世纪之久。甚至比比基尼本身的历史还要早。</b></blockquote><p><br></p><p><b>文 / </b><a class="member_mention" href="http://www.zhihu.com/people/efcfa4d08f1d65353e08ff6e7f03b9e1" data-hash="efcfa4d08f1d65353e08ff6e7f03b9e1" data-hovercard="p$b$efcfa4d08f1d65353e08ff6e7f03b9e1">@雨上</a> </p><h2><b>百花齐放</b></h2><p>比基尼铠甲美观、轻便，材质看起来坚固可靠，甚至有的还隐藏着额外的杀伤力，它的优点数不胜数，除了那个本职工作——防御。</p><figure><img src="https://pic1.zhimg.com/v2-4418530c1670156caed443106e1ac4bc_b.jpg" data-caption="" data-size="normal" data-rawwidth="750" data-rawheight="480" class="origin_image zh-lightbox-thumb" width="750" data-original="https://pic1.zhimg.com/v2-4418530c1670156caed443106e1ac4bc_r.jpg"></figure><p>没有人相信这种暴露大面积要害部位的装备真的能在物理上提升防御，可是这种奇怪的装备在今天的人物设定中实在是太常见了，常见到观众们即便会去较真那些明显漏洞百出的剧情，也已经不会有人去质疑这种装备存在的合理性。</p><p>对于今天的游戏角色设计师来说，把胸甲设计成比基尼的样子已经不是“见怪不怪”的范畴，而更像是一脉相承。不仅程式化的3D建模教材都以此为模板，大量的游戏圈“史料”也能佐证，女战士的盔甲好像还真就是这样的？</p><figure><img src="https://pic1.zhimg.com/v2-d17ea9d2c5b9262b662d4c331c2c785c_b.jpg" data-caption="" data-size="normal" data-rawwidth="750" data-rawheight="746" class="origin_image zh-lightbox-thumb" width="750" data-original="https://pic1.zhimg.com/v2-d17ea9d2c5b9262b662d4c331c2c785c_r.jpg"></figure><p>其实早在中国网游发展初期，在很多玩家刚开始玩网络游戏的时候，比基尼铠甲的启蒙运动就开始了。当时中国玩家比较熟悉也很有代表性的，比如欧美风的《魔兽世界》：</p><figure><img src="https://pic3.zhimg.com/v2-417902e1075148f73bae5cd80a0f9376_b.jpg" data-caption="" data-size="normal" data-rawwidth="750" data-rawheight="849" class="origin_image zh-lightbox-thumb" width="750" data-original="https://pic3.zhimg.com/v2-417902e1075148f73bae5cd80a0f9376_r.jpg"></figure><p>日风的《魔力宝贝》：</p><figure><img src="https://pic1.zhimg.com/v2-3be52cad41182e54ac8498e8dac15c5c_b.jpg" data-caption="" data-size="normal" data-rawwidth="750" data-rawheight="561" class="origin_image zh-lightbox-thumb" width="750" data-original="https://pic1.zhimg.com/v2-3be52cad41182e54ac8498e8dac15c5c_r.jpg"></figure><p>韩风的《传奇》：</p><figure><img src="https://pic3.zhimg.com/v2-e8df32af9e62efb226603182a98c5442_b.jpg" data-caption="" data-size="normal" data-rawwidth="750" data-rawheight="453" class="origin_image zh-lightbox-thumb" width="750" data-original="https://pic3.zhimg.com/v2-e8df32af9e62efb226603182a98c5442_r.jpg"></figure><p>这当今中国游戏设计风格的三大来源，美、日、韩，无不在那个时候就已经完成了女角色铠甲的现代化转型。</p><p>那么，他们又是怎么不约而同让女战士穿上这身装备的呢？</p><p><br></p><h2><b>工业革命</b></h2><p>时间往前回溯，日本开始大规模女性铠甲改革的时间是上世纪80年代。</p><p>最先觉醒的是一位女性漫画家，大家可能也认识，高桥留美子。在她1979年连载的作品《福星小子》中，就已经出现过类似“铁片胸甲”的比基尼铠甲了，之后她还在次年连载的《高桥留美子异想世界》中也用到了这个设定。在故事里，这种装束是作为能量抑制器存在的。</p><figure><img src="https://pic1.zhimg.com/v2-d73fe1ff58282ae17d87bdcdf71a6a84_b.jpg" data-size="normal" data-rawwidth="750" data-rawheight="1060" class="origin_image zh-lightbox-thumb" width="750" data-original="https://pic1.zhimg.com/v2-d73fe1ff58282ae17d87bdcdf71a6a84_r.jpg"><figcaption>《少年Sunday》1980年10月20日秋季增刊2（左封面《高桥留美子异想世界》）</figcaption></figure><p>但比基尼铠甲在高桥留美子的作品中只不过是这样的昙花一现，用“能量抑制器”这种一本正经发福利的玩法之后就没怎么出现过了。</p><p>相比高桥老师的一时兴起，漫画界有一个对比基尼铠甲真正执着的男人，鸟山明。</p><p>从1981年鸟山明在《阿拉蕾》的连载中像下面这样描绘女战士开始，比基尼铠甲的设计就成了鸟山设计库中的定番，时不时地就会拿出来安插在某个角色上：</p><figure><img src="https://pic1.zhimg.com/v2-3c47d1ade4275ac196c1646091b1bc5c_b.jpg" data-caption="" data-size="normal" data-rawwidth="750" data-rawheight="1026" class="origin_image zh-lightbox-thumb" width="750" data-original="https://pic1.zhimg.com/v2-3c47d1ade4275ac196c1646091b1bc5c_r.jpg"></figure><p>其中最知名的是1988年上市的《勇者斗恶龙3》中的女战士，虽然这并不是比基尼铠甲的设计第一次在游戏平台出现，但勇者斗恶龙系列的影响力让更多玩家有机会接触到了这种前卫的设计。</p><figure><img src="https://pic2.zhimg.com/v2-391fb4642dea6cf598d123e131db9845_b.jpg" data-caption="" data-size="normal" data-rawwidth="750" data-rawheight="849" class="origin_image zh-lightbox-thumb" width="750" data-original="https://pic2.zhimg.com/v2-391fb4642dea6cf598d123e131db9845_r.jpg"></figure><p>如果那个时候的日本真的有人想去认真地质疑比基尼铠甲的合理性，那么他一定不会找鸟山明的作品下手（想想阿拉蕾里那些更奇怪的东西吧）。一片真香声中，这种在当时看来有些奇怪又略显羞耻的设定最终被大众所接受并给出广泛好评，不知不觉间，这样一个当时的流行元素已经对日本未来的游戏的人物设计产生了深远的影响。</p><p><br></p><h2><b>文艺复兴</b></h2><p>当然，潮流并不是一个新颖的女战士形象就能轻松改变的，当时的观众之所以对这一形象有很高的接受度，是因为比基尼铠甲的形象在日本人民心中已经有过一段很长的铺垫。</p><p>1983-1985年是日本动漫作品中比基尼铠甲形象出现最为密集的黄金时代，在这期间，日本各大漫画连载杂志几乎都未能免俗地出现了比基尼铠甲的形象。</p><p>在内页的连载作品中的形象的姑且不论，单说杂志封面，就有科幻向的《季刊宇宙船》：</p><figure><img src="https://pic1.zhimg.com/v2-7fc9de8f5ca40a111baa6444c1be6fc0_b.jpg" data-caption="" data-size="normal" data-rawwidth="750" data-rawheight="1051" class="origin_image zh-lightbox-thumb" width="750" data-original="https://pic1.zhimg.com/v2-7fc9de8f5ca40a111baa6444c1be6fc0_r.jpg"></figure><p>漫画连载的《THE MOTION COMIC》等诸多杂志对比基尼铠甲这个“前卫”的形象作了积极的响应：</p><figure><img src="https://pic2.zhimg.com/v2-3626cbd719796400ca128e483098ef29_b.jpg" data-caption="" data-size="normal" data-rawwidth="750" data-rawheight="1037" class="origin_image zh-lightbox-thumb" width="750" data-original="https://pic2.zhimg.com/v2-3626cbd719796400ca128e483098ef29_r.jpg"></figure><p>《幻梦战记蕾达》也是这期间诞生作品的代表。片中的女主角朝雾阳子被异世界召唤，作为传说中的蕾达战士为正义的一方作战。</p><p>这部作品现在看来剧情很普通，但在当时却被称为“珍贵的英雄幻想作品”，它凭借着3万份的销量成为当时的话题作，也作为“英雄幻想”这一题材的标杆成了后续作品学习的榜样。当时日本的《产经新闻》以“影像行业的新浪潮”的评价，对这部原创作品进行了称赞。</p><figure><img src="https://pic3.zhimg.com/v2-51097bc9db2df2e6b0da4c8fabea4666_b.jpg" data-caption="" data-size="normal" data-rawwidth="750" data-rawheight="1060" class="origin_image zh-lightbox-thumb" width="750" data-original="https://pic3.zhimg.com/v2-51097bc9db2df2e6b0da4c8fabea4666_r.jpg"></figure><p>除了“英雄幻想”这个题材，《幻梦战记蕾达》另一个不可忽略的特色就是女主角形象。穿越到异世界之后，“入乡随俗”的阳子在那个世界的防具即是比基尼铠甲：</p><figure><img src="https://pic4.zhimg.com/v2-a4dd825e05a35be09a4e16fdff42d64b_b.jpg" data-size="normal" data-rawwidth="750" data-rawheight="855" class="origin_image zh-lightbox-thumb" width="750" data-original="https://pic4.zhimg.com/v2-a4dd825e05a35be09a4e16fdff42d64b_r.jpg"><figcaption>《幻梦战记蕾达》设定</figcaption></figure><p>这套装备给人的刺激并不亚于英雄幻想这个新题材的冲击，日本动画评论媒体Animestyle这样评价这部作品的人设：</p><blockquote>《幻梦战记蕾达》这部OVA作品让作画监督いのまた得以发挥出真正的实力，他笔下的阳子能让人感觉到柔软的触感，同时又是一种健康的状态，并不下流，这种魔法般的绘技令人赞叹。但这些表现手法都是依靠比基尼铠甲这一装备得以衬托的。在此之后，动画和游戏中将比基尼和盔甲结合在一起的‘比基尼铠甲’成了一个流行元素，要说到契机，都是从《幻梦战记蕾达》这部作品开始的。</blockquote><p> “英雄幻想”和“比基尼铠甲”，一部作品的两个噱头到底是谁成就了谁，以如今的视角不好妄加判断。但可以判断的是从这部作品开始，日本的“英雄幻想”题材就开始有意无意的捆绑上了“比基尼铠甲”这个元素，让他们成为了一对固定搭档。 </p><p>我们可以看到，后续“英雄幻想”题材的作品，像1986年12月发售的SunSoft的《玛多拉之翼》：</p><figure><img src="https://pic4.zhimg.com/v2-e19aba79e46a60ea9542da9ef402df5b_b.jpg" data-size="normal" data-rawwidth="750" data-rawheight="509" class="origin_image zh-lightbox-thumb" width="750" data-original="https://pic4.zhimg.com/v2-e19aba79e46a60ea9542da9ef402df5b_r.jpg"><figcaption>《玛多拉之翼》</figcaption></figure><p>同期的《梦幻战士瓦莉丝》都是这一模式的践行者。</p><figure><img src="https://pic1.zhimg.com/v2-58f3933fc8ad1618c510ebdf87b40b94_b.jpg" data-size="normal" data-rawwidth="750" data-rawheight="742" class="origin_image zh-lightbox-thumb" width="750" data-original="https://pic1.zhimg.com/v2-58f3933fc8ad1618c510ebdf87b40b94_r.jpg"><figcaption>《梦幻战士瓦莉丝》</figcaption></figure><p>而《梦幻战士瓦莉丝》的开发商狼组则靠着这套自带流量的比基尼铠甲，掀起了一波硬派动作游戏的高潮，从而令母公司日本通讯网络公司一跃成为当时的知名游戏大厂。</p><p>与《幻梦战记蕾达》造成的影响相似，《梦幻战士瓦莉丝》也是身兼“美少女动作游戏先锋”和“比基尼铠甲人设”的双重身份，它的成功必然引来后来者的争相效仿。</p><p>女战士应该是“这样”的印象，开始在玩家们心中生根。</p><p>处在浪潮中的不止动画和游戏，ACG改革一线的漫画界受到的影响其实还要深一些。例子不多举，只看那个一直致力于比基尼铠甲推广的鸟山明同志在此期间的贡献：</p><figure><img src="https://pic1.zhimg.com/v2-f7397374fce6ed2b64d28cca7a5d21e0_b.jpg" data-caption="" data-size="normal" data-rawwidth="750" data-rawheight="1122" class="origin_image zh-lightbox-thumb" width="750" data-original="https://pic1.zhimg.com/v2-f7397374fce6ed2b64d28cca7a5d21e0_r.jpg"></figure><p>这一话是出自1985年2月的《少年JUMP》连载，琪琪的这个形象正是在这个比基尼铠甲浪潮之中诞生的。</p><p>那么，比基尼+铠甲这样的设计为何会于80年代在日本集中爆发呢，结合历史进程，还是得提到那部真正把比基尼铠甲推向世界的电影，《星球大战6：绝地归来》。</p><p><br></p><h2><b>启蒙运动</b></h2><p>1983，在这一年，潜入贾巴宫殿失败的莱娅公主被俘，因贾巴的恶趣味，莱娅穿上了那身黄金比基尼铠甲样子囚服。</p><figure><img src="https://pic2.zhimg.com/v2-56070194bab4072db9a0a0453b28646d_b.jpg" data-size="normal" data-rawwidth="750" data-rawheight="1126" class="origin_image zh-lightbox-thumb" width="750" data-original="https://pic2.zhimg.com/v2-56070194bab4072db9a0a0453b28646d_r.jpg"><figcaption>《星球大战6》海报</figcaption></figure><p>这套服装在《星球大战6：绝地归来》中只出现了两次，但却让凯丽·费雪成为了那个年代“性感”定义的标杆。电影上映后，全世界的观众似乎在一夜之间觉醒了自己对比基尼铠甲的性癖，杂志、综艺节目配合着热度玩起了各种金色比基尼的梗。</p><figure><img src="https://pic4.zhimg.com/v2-56704ec27bdec2debbae3315c9f7898b_b.gif" data-size="normal" data-rawwidth="400" data-rawheight="219" data-thumbnail="https://pic4.zhimg.com/v2-56704ec27bdec2debbae3315c9f7898b_b.jpg" class="content_image" width="400"><figcaption>《老友记》里对这个梗的应用</figcaption></figure><p>美国连线杂志对这套装备的流行这样描述：</p><blockquote>毫无疑问，凯丽·费雪穿着金色比基尼铠甲的样子，在1983年的春天烙进了一整代刚刚进入青春期的少年们躁动的潜意识里。</blockquote><p>那么这套让当时的少年为之疯狂的服装，又是基于什么被设计出来的呢？</p><p>30年后的2014年，星战官方在官网上刊登了一篇文章“莱娅公主和金色比基尼铠甲与流行文化的联系”。文中在回忆这件服装对世界产生的影响的同时，也试图去阐释给莱娅公主穿上金色比基尼的合理性。</p><p>他们表示，虽然这套服装是作为有贬低意味的囚服出现的，但是自20世纪60年代以来，太空电影中就开始有大量身着比基尼的女性角色，像《上空英雄》（Barbarella [1968]）的芭芭丽娜那样的比基尼服装已经可以被说成是太空世界观的一部分。</p><figure><img src="https://pic1.zhimg.com/v2-eb28245d77a978e38296c2a361aaf0f0_b.jpg" data-size="normal" data-rawwidth="750" data-rawheight="1065" class="origin_image zh-lightbox-thumb" width="750" data-original="https://pic1.zhimg.com/v2-eb28245d77a978e38296c2a361aaf0f0_r.jpg"><figcaption>《上空英雄》</figcaption></figure><p>当然也有设计师的主观成分。莱娅的服装设计师尼洛在接到制片人乔治·卢卡斯告知的剧本角色后，给出了下面这张草图：</p><figure><img src="https://pic1.zhimg.com/v2-ccaa5bdcad6c43a29b67238b51cf9e58_b.jpg" data-caption="" data-size="normal" data-rawwidth="750" data-rawheight="1009" class="origin_image zh-lightbox-thumb" width="750" data-original="https://pic1.zhimg.com/v2-ccaa5bdcad6c43a29b67238b51cf9e58_r.jpg"></figure><p>据称，这张图的设计灵感是源于1970年科幻插图巨匠弗兰克·弗雷泽塔（Frank Frazetta）为小说《火星公主》（A Princess of Mars）绘制的插图，而图中主角与莱娅公主有着相同的境遇——被反派囚禁，被主角救出——这让设计师毫不犹豫地将两个角色联系到了一起。</p><figure><img src="https://pic1.zhimg.com/v2-8896405392a5b749a4bdcddbf1bef624_b.jpg" data-size="normal" data-rawwidth="750" data-rawheight="1148" class="origin_image zh-lightbox-thumb" width="750" data-original="https://pic1.zhimg.com/v2-8896405392a5b749a4bdcddbf1bef624_r.jpg"><figcaption>《火星公主》插图</figcaption></figure><p>这还不够，为了全方位说明使用比基尼铠甲的合理性，星战官方还不忘搬出另一个使比基尼铠甲深入人心的老前辈：</p><p>“当莱娅公主站在逃走的帆船顶部挥舞长枪，发射炮弹的时候，她便不是奴隶了，而是一个战士，虽然此时穿着那件金色比基尼的人是莱娅，但大家脑海中很快就会浮现出某个女性野蛮人的形象。”</p><p>这个“女性野蛮人”，即是漫威漫画系列《女王神剑》（Red Sonja[1973]）中的女主角Red Sonja。</p><figure><img src="https://pic1.zhimg.com/v2-0fbe0ceea95636f462da2d7745b00580_b.jpg" data-size="normal" data-rawwidth="750" data-rawheight="1153" class="origin_image zh-lightbox-thumb" width="750" data-original="https://pic1.zhimg.com/v2-0fbe0ceea95636f462da2d7745b00580_r.jpg"><figcaption>漫威的《女王神剑》</figcaption></figure><p><br></p><h2><b>远古时代</b></h2><p>《女王神剑》显然不是比基尼铠甲的“始作俑者”，Red Sonja这个形象实际上是参考了“剑与魔法”题材之父——罗伯特·欧文·霍华德在1934年发表的短篇小说《秃鹰的影子》（The Shadow of the Vulture）中的女剑客。</p><p>遗憾地是，我们没能从霍华德的这部作品中找到女剑客天生就穿比基尼的证据。</p><p>不过，从30年代与《秃鹰的影子》同类型的所谓“低俗小说”的这个分类里，比基尼铠甲就已经是个比较热门的设定了。比较有代表性的《Weird Tales》杂志，从1928年开始，其封面画师多次采用这种近似金属材质的胸衣来武装女性：</p><figure><img src="https://pic3.zhimg.com/v2-9533f3b0a64ac9ab97f419372368a566_b.jpg" data-caption="" data-size="normal" data-rawwidth="750" data-rawheight="1132" class="origin_image zh-lightbox-thumb" width="750" data-original="https://pic3.zhimg.com/v2-9533f3b0a64ac9ab97f419372368a566_r.jpg"></figure><p>但是在这个“比基尼”概念都还未出现的30年代，这样的金属服装完全没有“铠甲”功能的概念，这样的胸衣设计，完全是取材于同年代流行的一种舞女服装。</p><p>但这个时候的舞女胸衣材质绝不是什么金属，只不过金属颜色的反光片。</p><figure><img src="https://pic3.zhimg.com/v2-4738d0921a9416626613a99223a568ee_b.jpg" data-size="normal" data-rawwidth="750" data-rawheight="1173" class="origin_image zh-lightbox-thumb" width="750" data-original="https://pic3.zhimg.com/v2-4738d0921a9416626613a99223a568ee_r.jpg"><figcaption>1924年法国成人杂志《PARIS PLAISIRS》上的舞女照片</figcaption></figure><p>至此，如果为比基尼铠甲这近一个世纪的发展粗略地画一条时间线的话，大概是这样的：</p><figure><img src="https://pic3.zhimg.com/v2-fc3375f41af248e95f5d9f57dba955fe_b.jpg" data-caption="" data-size="normal" data-rawwidth="750" data-rawheight="1084" class="origin_image zh-lightbox-thumb" width="750" data-original="https://pic3.zhimg.com/v2-fc3375f41af248e95f5d9f57dba955fe_r.jpg"></figure><p>在这样的发展历程中，你去质问其中任何一个点的比基尼铠甲的合理性，都可以得到一个“一脉相承”的标准答案。</p><p>没有人会承认自己是比基尼铠甲文化的发起者，他们会告诉你自己只是传统文化的继承者，是在遵循着老一辈艺术家留下来的光荣传统，说出自己的比基尼铠甲设计是有多少讲究，师承何人，受到哪些大师的启发。</p><p>如果你进一步追问，他们甚至会给你讲一晚上的比基尼铠甲发展史，但绝对不会提到那个最根本的原因——</p><p>人类只是想给自己光明正大地看女性胸部找一个合理的理由。</p>',
+    'is_labeled': True
+  },
+  'brief': '{"source": "TS", "type": "article", "id": 56186468}',
+  'uninterest_reasons': [
+    {
+      'reason_id': 3,
+      'reason_type': 'topic',
+      'object_token': '19680326',
+      'object_type': 'topic',
+      'reason_text': '比基尼'
+    },
+    {
+      'reason_id': 3,
+      'reason_type': 'topic',
+      'object_token': '19600555',
+      'object_type': 'topic',
+      'reason_text': '游戏文化'
+    },
+    {
+      'reason_id': 2,
+      'reason_type': 'creator',
+      'object_token': 'a79799355c0842663f2074daf8f5a1fb',
+      'object_type': 'people',
+      'reason_text': '游研社创作的内容'
+    }
+  ],
+  'attached_info': 'Cq4BCIytnLnF6MWT4gEQBxoJMTAwNjE1Nzc2IPmS1eIFKPVCMLEDQAlKCgoBSBIBMBgAIABSD2hvdF9hZGRfYXJ0aWNsZVoFMTU0ODZyCDU2MTg2NDY4eAGCAUBodHRwczovL3BpYzQuemhpbWcuY29tL3YyLTZlNjI2ZTJhM2RhZjdiMmE3OWJiZmQ0MzcyZmQ3N2JiX3IuanBnigEGeXlzYWFnqgEJcmVjb21tZW5k',
+  'actors': [
+    {
+      'id': '19680326',
+      'type': 'topic',
+      'url': 'https://api.zhihu.com/topics/19680326',
+      'avatar_url': 'https://pic4.zhimg.com/50/e82bab09c_s.jpg',
+      'name': '比基尼',
+      'excerpt': '',
+      'introduction': '',
+      'meta': {
+        'id': 1023603515721134080,
+        'category': 'n_wiki',
+        'type': 'metapedia'
+      }
+    }
+  ],
+  'show_actor_time': False,
+  'action_text': '比基尼',
+  'action_text_tpl': '热门内容, 来自: {}',
+  'action_card': False
+}
